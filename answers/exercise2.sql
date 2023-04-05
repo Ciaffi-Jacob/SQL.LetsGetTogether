@@ -1,4 +1,4 @@
 SELECT *
-FROM Enrolments e
-JOIN Students s
-ON e.Students_ID = s.Students_ID;
+FROM Enrolments
+JOIN Students
+ON Enrolments.Students_ID = Students.Students_ID;
